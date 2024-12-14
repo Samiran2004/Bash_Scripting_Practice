@@ -5,6 +5,6 @@ num=10
 
 while [[ $count -le $num ]]
 do
-	echo "Value of count is: $count"
-	let count++
+    echo "Value of count is: $count"
+    let count++
 done

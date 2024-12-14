@@ -9,10 +9,10 @@ echo "(c) for current location."
 read -p "Enter: " choice
 
 case $choice in
-	a)
-		echo "Today's date is: $(date)"
-		;;
-	b)ls;;
-	c)pwd;;
-	*)echo "Not a valid option!!"
+    a)
+        echo "Today's date is: $(date)"
+    ;;
+    b)ls;;
+    c)pwd;;
+    *)echo "Not a valid option!!"
 esac

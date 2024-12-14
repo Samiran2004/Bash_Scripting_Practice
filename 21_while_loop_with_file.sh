@@ -2,5 +2,5 @@
 
 while read myVar
 do
-	echo $myVar
+    echo $myVar
 done < names.txt

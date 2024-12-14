@@ -2,6 +2,6 @@
 
 while true
 do
-	echo "Hi Samiran"
-	sleep 2s
+    echo "Hi Samiran"
+    sleep 2s
 done
