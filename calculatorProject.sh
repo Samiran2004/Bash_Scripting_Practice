@@ -47,3 +47,22 @@ echo "(s/S) for subtraction."
 echo "(m/M) for multiplication."
 echo "(d/D) for division."
 
+read -p "Enter a valid option: " choice
+lowerChoice=${choice,,}
+
+case $lowerChoice in
+	a)
+		add $num1 $num2
+		;;
+	s)
+		sub $num1 $num2
+		;;
+	m)
+		multi $num1 $num2
+		;;
+	d)
+		div $num1 $num2
+		;;
+	*) 
+		echo "Not a valid option!!"
+esac
