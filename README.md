@@ -16,5 +16,18 @@ Welcome to my **Bash Scripting Practice** repository! This is where I experiment
 
 ---
 
-## 📂 Repository Structure
-Here's how this repository is organized:
+---
+
+## 🔧 Prerequisites
+To run the scripts in this repository, you'll need:
+1. A Linux-based operating system (Ubuntu, Fedora, etc.) or macOS.
+2. Bash shell (installed by default on most systems).
+3. Basic understanding of terminal commands.
+
+---
+
+## 🚀 How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Samiran2004/Bash_Scripting_Practice
+   cd Bash_Scripting_Practice
