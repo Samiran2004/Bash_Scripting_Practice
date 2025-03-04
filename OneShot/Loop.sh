@@ -17,3 +17,26 @@ do
 	rmdir "$foldername$i"
 	echo "$foldername$i deleted..."
 done
+
+num=0
+while [[ $num -le 5 ]]
+do
+	echo "Line $num"
+	num=$((num+1))
+done
+
+echo "This is to check even number..."
+
+read -p "Enter the starting range: " frange
+read -p "Enter the ending range: " lrange
+
+curr=$frange
+
+while [[ $curr -le $lrange ]]
+do
+	if [[ $(($curr%2)) -eq 0 ]]
+	then
+		echo "$curr is a even number"
+	fi
+	curr=$((curr+1))
+done
