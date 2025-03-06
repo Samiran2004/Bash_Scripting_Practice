@@ -12,4 +12,6 @@ function isEven() {
 }
 
 read -p "Enter a number to check the number is even or not: " num
+
+#This is function call...
 isEven $num
